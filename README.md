@@ -1,4 +1,7 @@
 # FareBuddy - No API Keys
-Saves you shekels by comparing the various ridesharing services and helps you avoid Uber's Surge/Lyft's Prime Time pricing.
 
-http://uber.snusite.com/
+Web application that allows users to find cheaper Uber rides. Can save users around 10-20% on Uber rides, works best when there is surge pricing. Built using Node.js/Express, Uber and Google Maps API, and MongoDb.
+
+
+
+https://farebuddy.herokuapp.com/
