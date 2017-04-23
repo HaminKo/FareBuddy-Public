@@ -6,7 +6,7 @@ var Uber = require('node-uber');
 var uber = new Uber({
 	client_id: 'CLIENT_ID',
 	client_secret: 'CLIENT_SECRET',
-	server_token: 'YOUR SERVER TOKEN HERE',
+	server_token: process.env.UBERSERVERTOKEN || 'YOUR SERVER TOKEN HERE',
 	redirect_uri: 'REDIRECT URL',
 	name: 'Test',
 	language: 'en_US', // optional, defaults to en_US
@@ -15,7 +15,7 @@ var uber = new Uber({
 
 var options = {
 	provider: 'google',
-	apiKey: config.googleMaps,
+	apiKey: process.env.GOOGLEMAPS || config.googleMaps,
 };
 var geocoder = NodeGeocoder(options);
 

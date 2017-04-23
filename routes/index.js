@@ -44,7 +44,7 @@ router.post('/api/v1/price', function(req, res) {
 		res.json({
 			uberData: result.savedUberData,
 			uberProducts: result.products,
-			googleAPI: config.googleMaps
+			googleAPI: process.env.GOOGLEMAPS || config.GOOGLEMAPS
 		});
 	});
 

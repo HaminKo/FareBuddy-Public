@@ -1,7 +1,7 @@
 {
   "name": "farebuddy",
   "version": "1.0.0",
-  "description": "saves you shekels by comparing the various ridesharing services and helps you avoid Uber's Surge/Lyft's Prime Time pricing.",
+  "description": "Web-based mobile app that helps users find cheaper Uber rides.",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.16.1",
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Snuupy/FareBuddy.git"
+    "url": "git+https://github.com/HaminKo/FareBuddy-Public.git"
   },
   "author": "Snuupy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Snuupy/FareBuddy/issues"
+    "url": "https://github.com/HaminKo/FareBuddy-Public/issues"
   },
-  "homepage": "https://github.com/Snuupy/FareBuddy#readme"
+  "homepage": "https://github.com/HaminKo/FareBuddy-Public#readme"
 }

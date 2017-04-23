@@ -6,9 +6,9 @@ var Uber = require('node-uber');
 var config = require('../config')
 
 var uber = new Uber({
-  client_id: config.uberClientId,
-  client_secret: config.uberClientSecret,
-  server_token: config.uberServerToken,
+  client_id: process.env.UBERCLIENTID || config.UBERCLIENTID,
+  client_secret: process.env.UBERCLIENTSECRET || config.UBERCLIENTSECRET,
+  server_token: process.env.UBERSEVERTOKEN || config.UBERSERVERTOKEN,
   redirect_uri: 'REDIRECT URL',
   name: 'Test',
   language: 'en_US', // optional, defaults to en_US
