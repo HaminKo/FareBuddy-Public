@@ -1,6 +1,6 @@
 {
   "name": "farebuddy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web-based mobile app that helps users find cheaper Uber rides.",
   "main": "app.js",
   "dependencies": {
@@ -27,13 +27,14 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HaminKo/FareBuddy-Public.git"
   },
-  "author": "Snuupy",
+  "author": "HaMinKo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HaminKo/FareBuddy-Public/issues"
