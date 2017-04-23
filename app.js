@@ -86,9 +86,9 @@ var uberStrategy = require('passport-uber-v2').Strategy;
 
 // Uber passport strategy
 passport.use(new uberStrategy({
-    clientID: config.uberClientId,
-    clientSecret: config.uberClientSecret,
-    callbackURL: 'http://localhost:3000/callback'
+    clientID: process.env.UBERCLIENTID || config.UBERCLIENTID,
+    clientSecret: process.env.UBERCLIENTSECRET || config.UBERCLIENTSECRET,
+    callbackURL: process.env.UBERPASSPORTCALLBACKURL || config.UBERPASSPORTCALLBACKURL
   },
   function(accessToken, refreshToken, profile, done) {
     // var user = profile;
