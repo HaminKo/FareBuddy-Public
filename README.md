@@ -4,6 +4,6 @@ Web application that allows users to find cheaper Uber rides. Can save users aro
 
 # Demo
 
-![](img/lfarebuddyDemo.png)
+![](img/farebuddyDemo.png)
 
 https://farebuddy-public.herokuapp.com/
